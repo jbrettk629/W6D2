@@ -5,6 +5,7 @@ $( () => {
   const $game = new Game();
   const $container = $('.ttt');
   const $view = new View($game, $container);
-  const $board = $view.setupBoard();
-  
+  // $container.on('click', 'li', el => {
+  //   $view.bindEvents();
+  // });
 });

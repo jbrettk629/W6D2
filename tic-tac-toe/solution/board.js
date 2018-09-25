@@ -30,6 +30,7 @@ class Board {
   }
 
   placeMark(pos, mark) {
+    // debugger;
     if (!this.isEmptyPos(pos)) {
       throw new MoveError('Is not an empty position!');
     }

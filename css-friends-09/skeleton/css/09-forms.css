@@ -1,0 +1,31 @@
+/* PHASE 9: Forms */
+.post-form {
+    background-color: lightgray;
+    width: 500px;
+    float: left;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.content-main {
+  display: flex;
+  float: right;
+}
+
+.content-main .thumb {
+  float: left;
+  display: block;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.post-form input, .post-form textarea {
+  display: block;
+  background-color: white;
+  border: 1px solid grey;
+  width: 100%;
+}
+
